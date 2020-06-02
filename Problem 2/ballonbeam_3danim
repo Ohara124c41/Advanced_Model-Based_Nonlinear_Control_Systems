@@ -1,0 +1,42 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+Transform {
+	translation	-0.0744446 0.526188 -9.53674e-007
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+			}
+
+		}
+
+		geometry	Sphere {
+			radius	0.5
+		}
+
+	}
+}
+Transform {
+	translation	0 0 0
+	rotation	-1 0 0  0.0374425
+	scale	0.959266 0.959266 0.959266
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+			}
+
+		}
+
+		geometry	Box {
+			size	5 0.1 0.1
+		}
+
+	}
+}
+SpotLight {
+	location	0 3 0
+}
